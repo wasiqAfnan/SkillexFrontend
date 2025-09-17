@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# Skillex - Learning Management System
 
-## Project info
+Skillex is a modern **Learning Management System (LMS)** designed to simplify teaching and learning. It provides role-based access for Admins, Instructors, and Learners with a responsive, intuitive UI and secure backend.
 
-**URL**: https://lovable.dev/projects/efda0a8a-00cd-4c4c-b574-66f96fb4ad1c
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+* **Role-based Access**: Admin, Instructor, and Learner functionalities.
+* **Authentication**: JWT-based secure login and signup.
+* **Course Management**: Create, edit, delete, and enroll in courses.
+* **Media Handling**: Upload and stream videos and resources seamlessly.
+* **Payments & Subscription**: Purchase or subscribe to premium courses.
+* **Certificates**: Auto-generate completion certificates.
+* **UI/UX**: Responsive, modern interface using DaisyUI and Tailwind.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/efda0a8a-00cd-4c4c-b574-66f96fb4ad1c) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Frontend**: React, Tailwind CSS, DaisyUI
+* **Backend**: Node.js, Express.js
+* **Database**: MongoDB with Mongoose
+* **Authentication**: JWT, cookie-parser
+* **Media**: Cloudinary
+* **Payments**: Stripe / Razorpay
+* **Others**: Context API, REST APIs
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Project Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+Skillex/
+│── client/        # React frontend
+│── server/        # Node.js backend
+│── docs/          # Documentation & UML diagrams
+│── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ⚙️ Installation & Setup
 
-**Use GitHub Codespaces**
+1. Clone the repository:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+   ```bash
+   git clone https://github.com/yourusername/skillex.git
+   cd skillex
+   ```
 
-## What technologies are used for this project?
+2. Install dependencies for client and server:
 
-This project is built with:
+   ```bash
+   cd client && npm install
+   cd ../server && npm install
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3. Set up environment variables in `.env`:
 
-## How can I deploy this project?
+   ```
+   MONGO_URI=your_mongo_url
+   JWT_SECRET=your_secret_key
+   CLOUDINARY_KEY=your_cloudinary_key
+   STRIPE_KEY=your_stripe_key
+   ```
 
-Simply open [Lovable](https://lovable.dev/projects/efda0a8a-00cd-4c4c-b574-66f96fb4ad1c) and click on Share -> Publish.
+4. Start development servers:
 
-## Can I connect a custom domain to my Lovable project?
+   ```bash
+   cd client && npm run dev
+   cd ../server && npm run dev
+   ```
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📖 Future Enhancements
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+* Admin analytics dashboard
+* Instructor–student interaction features
+* Learner notifications and progress tracking
+
+---
+
+## 👨‍💻 Author
+
+**Wasiq Afnan Ansari**
+BCA Graduate | MCA Student | CS Tutor & Developer
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
