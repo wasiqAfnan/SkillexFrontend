@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "role": "student",
+    "subscriptionStatus": "active",
+    "joinDate": "2024-01-15",
+    "coursesEnrolled": 3,
+    "coursesCompleted": 1,
+    "totalLearningHours": 45
+  },
+  {
+    "id": 2,
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@example.com",
+    "avatar": "https://images.unsplash.com/photo-1494790108755-2616b567d49a?w=150&h=150&fit=crop&crop=face",
+    "role": "mentor",
+    "subscriptionStatus": "active",
+    "joinDate": "2023-08-20",
+    "coursesCreated": 12,
+    "totalStudents": 15420,
+    "rating": 4.9
+  },
+  {
+    "id": 3,
+    "name": "Admin User",
+    "email": "admin@skillex.com",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "role": "admin",
+    "subscriptionStatus": "active",
+    "joinDate": "2023-01-01"
+  }
+]

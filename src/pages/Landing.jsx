@@ -73,13 +73,14 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-            
-            <div className="relative">
-              <div className="relative z-10">
+
+            {/* Right side */}
+            <div className="relative overflow-hidden rounded-2xl h-[500px] lg:h-[500px]">
+              <div className="relative z-10 w-full h-full">
                 <img 
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop" 
+                  src="/HeroImage.png" 
                   alt="Students learning together"
-                  className="rounded-2xl shadow-2xl w-full animate-float"
+                  className="rounded-2xl shadow-2xl w-full h-full object-cover animate-float"
                 />
               </div>
               <div className="absolute -top-4 -right-4 w-full h-full bg-gradient-primary rounded-2xl opacity-20"></div>
@@ -202,7 +203,7 @@ const Landing = () => {
             <Link to="/signup" className="btn btn-white btn-lg">
               Get Started Free
             </Link>
-            <Link to="/courses" className="btn btn-outline btn-lg text-white border-white hover:bg-white hover:text-primary">
+            <Link to="/courses" className="btn btn-outline btn-lg text-white border-white hover:bg-black hover:border-black ">
               Browse Courses
             </Link>
           </div>

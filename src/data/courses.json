@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "shortDescription": "Master HTML, CSS, JavaScript, React, Node.js and become a full-stack developer.",
+    "description": "This comprehensive course will take you from a complete beginner to a professional web developer. You'll learn HTML5, CSS3, JavaScript ES6+, React, Node.js, Express, MongoDB, and deployment strategies. Build 10+ real-world projects and gain the skills employers are looking for.",
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=250&fit=crop",
+    "instructor": {
+      "name": "Sarah Johnson",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b567d49a?w=100&h=100&fit=crop&crop=face",
+      "bio": "Senior Full Stack Developer with 8+ years experience"
+    },
+    "category": "Web Development",
+    "rating": 4.9,
+    "totalRatings": 2847,
+    "duration": "42 hours",
+    "price": 89.99,
+    "originalPrice": 199.99,
+    "level": "Beginner to Advanced",
+    "language": "English",
+    "enrolled": 15420,
+    "modules": [
+      {
+        "title": "HTML5 Fundamentals",
+        "lessons": 8,
+        "duration": "3 hours"
+      },
+      {
+        "title": "CSS3 & Responsive Design",
+        "lessons": 12,
+        "duration": "5 hours"
+      },
+      {
+        "title": "JavaScript ES6+ Mastery",
+        "lessons": 15,
+        "duration": "8 hours"
+      },
+      {
+        "title": "React Development",
+        "lessons": 18,
+        "duration": "10 hours"
+      },
+      {
+        "title": "Backend with Node.js",
+        "lessons": 14,
+        "duration": "8 hours"
+      },
+      {
+        "title": "Database & Deployment",
+        "lessons": 10,
+        "duration": "6 hours"
+      }
+    ],
+    "features": [
+      "Lifetime Access",
+      "Certificate of Completion",
+      "30-Day Money Back Guarantee",
+      "Mobile & Desktop Access",
+      "Downloadable Resources"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Design Masterclass",
+    "shortDescription": "Learn design thinking, prototyping, and create stunning user interfaces.",
+    "description": "Master the art of UI/UX design with this comprehensive course. Learn design principles, user research, wireframing, prototyping with Figma, and create beautiful, functional designs that users love.",
+    "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=250&fit=crop",
+    "instructor": {
+      "name": "Michael Chen",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+      "bio": "Lead UX Designer at Google with 10+ years experience"
+    },
+    "category": "Design",
+    "rating": 4.8,
+    "totalRatings": 1923,
+    "duration": "28 hours",
+    "price": 79.99,
+    "originalPrice": 149.99,
+    "level": "Beginner to Intermediate",
+    "language": "English",
+    "enrolled": 8765,
+    "modules": [
+      {
+        "title": "Design Fundamentals",
+        "lessons": 6,
+        "duration": "3 hours"
+      },
+      {
+        "title": "User Research & Psychology",
+        "lessons": 8,
+        "duration": "4 hours"
+      },
+      {
+        "title": "Wireframing & Prototyping",
+        "lessons": 10,
+        "duration": "6 hours"
+      },
+      {
+        "title": "Visual Design & Figma",
+        "lessons": 12,
+        "duration": "8 hours"
+      },
+      {
+        "title": "Advanced Interactions",
+        "lessons": 8,
+        "duration": "5 hours"
+      }
+    ],
+    "features": [
+      "Lifetime Access",
+      "Figma Resources Included",
+      "Design Portfolio Projects",
+      "Industry Case Studies",
+      "Certificate of Completion"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Data Science with Python",
+    "shortDescription": "Analyze data, build machine learning models, and make data-driven decisions.",
+    "description": "Dive into the world of data science with Python. Learn pandas, NumPy, matplotlib, scikit-learn, and build real machine learning projects. Perfect for aspiring data scientists and analysts.",
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
+    "instructor": {
+      "name": "Dr. Amanda Rodriguez",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+      "bio": "Data Scientist at Microsoft, PhD in Statistics"
+    },
+    "category": "Data Science",
+    "rating": 4.7,
+    "totalRatings": 3421,
+    "duration": "35 hours",
+    "price": 99.99,
+    "originalPrice": 179.99,
+    "level": "Intermediate",
+    "language": "English",
+    "enrolled": 12340,
+    "modules": [
+      {
+        "title": "Python for Data Science",
+        "lessons": 10,
+        "duration": "5 hours"
+      },
+      {
+        "title": "Data Analysis with Pandas",
+        "lessons": 12,
+        "duration": "6 hours"
+      },
+      {
+        "title": "Data Visualization",
+        "lessons": 8,
+        "duration": "4 hours"
+      },
+      {
+        "title": "Statistics & Probability",
+        "lessons": 10,
+        "duration": "6 hours"
+      },
+      {
+        "title": "Machine Learning",
+        "lessons": 15,
+        "duration": "10 hours"
+      },
+      {
+        "title": "Real-world Projects",
+        "lessons": 6,
+        "duration": "4 hours"
+      }
+    ],
+    "features": [
+      "Jupyter Notebooks Included",
+      "Real Dataset Projects",
+      "Career Guidance",
+      "Python Libraries Mastery",
+      "Certificate of Completion"
+    ]
+  }
+]
